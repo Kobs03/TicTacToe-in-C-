@@ -16,7 +16,10 @@ namespace TicTacToe
             int numOfTurns = 1;
             int position;
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Do You Want to Play TicTacToe? (y/n) ");
+            Console.ResetColor();
+
             char input = Console.ReadLine()[0];
 
             if (input == 'n')
@@ -25,8 +28,9 @@ namespace TicTacToe
             }
             else if (input == 'y')
             {
-
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Welcome to the Game!");
+                Console.ResetColor();
 
                 // Initialize Fresh Board
                 InitializeBoard(board);
@@ -40,7 +44,26 @@ namespace TicTacToe
 
                     Console.WriteLine("Enter the positon 1 - 9:");
 
-                    position = int.Parse(Console.ReadLine());
+                    // Check if the input is valid integer or within range
+                    while (true)
+                    {
+                        string gameInput = Console.ReadLine(); // Use the existing 'input' variable declared outside the loop
+
+                        if (gameInput == "q")
+                        {
+                            Console.WriteLine("Exiting Game...");
+                            return; // Exit the Main method and the program
+                        }
+
+                        if (!int.TryParse(gameInput, out position) || position < 1 || position > 9)
+                        {
+                            Console.WriteLine("Invalid Input! Please input a valid integer between 1 and 9");
+                        }
+                        else
+                        {
+                            break; // Exit the loop if input is valid
+                        }
+                    }
 
                     if (!occupiedSlot.Contains(position))
                     {
@@ -80,6 +103,11 @@ namespace TicTacToe
 
                     if (CheckWinner(board, player.ToUpper()))
                     {
+
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"Player '{player.ToUpper()}' Wins!");
+                        Console.ResetColor();
+
                         gameOver = !gameOver;
                     }
 
@@ -90,12 +118,12 @@ namespace TicTacToe
                     }
 
                 } while (!gameOver);
-
-                Console.WriteLine($"Player '{player.ToUpper()}' Wins!");
+                ;
             }
             else
             {
-                Console.WriteLine(" Invalid Input! Please enter (y/n) only");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid Input! Please enter (y/n) only");
             }
             // ----------
             // | Methods|
