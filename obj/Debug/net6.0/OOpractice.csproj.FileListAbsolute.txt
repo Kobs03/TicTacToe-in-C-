@@ -1,0 +1,15 @@
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\bin\Debug\net6.0\OOpractice.exe
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\bin\Debug\net6.0\OOpractice.deps.json
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\bin\Debug\net6.0\OOpractice.runtimeconfig.json
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\bin\Debug\net6.0\OOpractice.dll
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\bin\Debug\net6.0\OOpractice.pdb
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\OOpractice.csproj.AssemblyReference.cache
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\OOpractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\OOpractice.AssemblyInfoInputs.cache
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\OOpractice.AssemblyInfo.cs
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\OOpractice.csproj.CoreCompileInputs.cache
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\OOpractice.dll
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\refint\OOpractice.dll
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\OOpractice.pdb
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\OOpractice.genruntimeconfig.cache
+C:\Users\Kobs\Desktop\C# Practice\OOPractice\obj\Debug\net6.0\ref\OOpractice.dll
